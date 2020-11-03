@@ -28,7 +28,6 @@ int debug_level = 9;
 char temp_message[1024];
 struct sock *nl_sk = NULL;
 
-
 // this function will called by the debug.c->open_file_regdump function -via temp(inode);
 // used for retrieving the ath_softc data structure from the native atheros driver.
 void temp(struct inode *inode)
