@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 ###################################################################
-#Script Name		:affinity_v1.sh	                                                                                              
+#Name		:script_for_processor_isolation.sh	                                                                                              
 #Description	:sets the SMP affinity of all kernel processes that interupt the CPU                                                                                    
 #Args		:None                                                                            
 #Author       	:Jay Sheth                                                

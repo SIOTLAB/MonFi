@@ -1,0 +1,1 @@
+cmd_/home/siot_king_b/Desktop/After_submission/MonFi/User_Space_Controller/built-in.o :=  rm -f /home/siot_king_b/Desktop/After_submission/MonFi/User_Space_Controller/built-in.o; ar rcsD /home/siot_king_b/Desktop/After_submission/MonFi/User_Space_Controller/built-in.o
