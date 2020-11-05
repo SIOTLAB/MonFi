@@ -89,7 +89,7 @@ int func1(char **arr, size_t *arr_len, char *s, char *PATTERN1, char *PATTERN2)
 //chops n characters from a given string
 void chopN(char *str, size_t n)
 {
-    assert(n != 0 && str != 0);
+    //assert(n != 0 && str != 0);
     size_t len = strlen(str);
     if (n > len)
         return;  // Or: n = len;
