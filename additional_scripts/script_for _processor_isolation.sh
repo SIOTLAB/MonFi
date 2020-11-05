@@ -3,7 +3,7 @@
 ###################################################################
 #Name		:script_for_processor_isolation.sh	                                                                                              
 #Description	:sets the SMP affinity of all kernel processes that interupt the CPU                                                                                    
-#Args		:None                                                                            
+#Args		:ath9k OR ath10k                                                                            
 #Author       	:Jay Sheth                                                
 #Email         	:jsheth2090@gmail.com                                           
 ###################################################################
