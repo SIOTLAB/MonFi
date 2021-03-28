@@ -18,6 +18,7 @@ The Collector also interacts with other modules of the communication stack.
 ## MonFi Software Components
 - The user-space component of MonFi is located inside User_Space_Controller folder as [mmaped_netlink_Controller.c](https://github.com/SIOTLAB/MonFi/blob/main/User_Space_Controller/mmaped_netlink_Controller.c)
 - We recommend using the complete kernel image as memory-mapped netlink is not supported in some of the newer kernel versions by default [[1]](http://natsys-lab.blogspot.com/2015/03/linux-netlink-mmap-bulk-data-transfer.html). Furthermore, we have also applied the patch which enables CRDA country code to be switched, and thus allows us to use 5Ghz channels via hostapd in AP mode.  
+  - Patch coming soon!
 - However, most of the implementation (for the collector) is inside the Atheros driver [[Link]](https://github.com/SIOTLAB/MonFi/tree/main/linux-4.5.1/drivers/net/wireless/ath)
   - Specifically, in [ath9k](https://github.com/SIOTLAB/MonFi/tree/main/linux-4.5.1/drivers/net/wireless/ath/ath9k) and [ath10k](https://github.com/SIOTLAB/MonFi/tree/main/linux-4.5.1/drivers/net/wireless/ath/ath10k) folders
   -  [ath9k_Collector_MNL.c](https://github.com/SIOTLAB/MonFi/blob/main/linux-4.5.1/drivers/net/wireless/ath/ath9k/ath9k_Collector_MNL.c) implements most of the functionalities of Collector kernel-space module.
